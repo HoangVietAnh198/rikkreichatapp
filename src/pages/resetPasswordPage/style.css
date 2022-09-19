@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#resetPasswordPage .container{
+    text-align: center;
+}
+#resetPasswordPage .container .logo img{
+    width: 150px;
+    margin: 25px 0px;
+}
+#resetPasswordPage .container .box-login{
+    border: 1px solid gray;
+    padding: 23px 30px;
+    width: 320px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#resetPasswordPage .container .box-login p{
+    text-align: left;
+}
+#resetPasswordPage .container .box-login .input{
+    width: 260px;
+    padding: 10px;
+    margin: 15px 0px;
+}
+#resetPasswordPage .container .box-login .btn-login{
+    width: 260px;
+    padding: 10px;
+    background-color: rgb(222, 65, 65);
+    border: none;
+    color: white;
+}
+#resetPasswordPage .container .box-login .btn-login:hover{
+    background-color: rgb(172, 23, 23);
+    border: none;
+    cursor: pointer;
+}
+#resetPasswordPage .container .box-login .input:hover{
+    background-color: rgb(214, 214, 214);
+    /* border: 0px solid gray; */
+    cursor: pointer;
+}
+#resetPasswordPage .container .create p{
+    width: 320px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#resetPasswordPage .container .create span{
+    font-size: 13px;
+}
+#resetPasswordPage .container .box-login #err-reset{
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+}

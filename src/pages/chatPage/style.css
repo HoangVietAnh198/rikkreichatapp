@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#chat-page .top{
+    background-color: rgb(131, 9, 9);
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+#chat-page .container{
+    display: flex;
+}
+#chat-page .container .new-conversation{
+    width: 350px;
+    border-right: 1px solid rgb(164, 164, 164);
+    height: calc(90vh)
+}
+#chat-page .container .new-conversation p{
+    text-align: center;
+    border-bottom: 1px solid rgb(164, 164, 164);
+    padding:20px 0px;
+}
+#chat-page .container .first-conversation{
+    width: 800px;
+    border-right: 1px solid rgb(164, 164, 164);
+    height: calc(90vh );
+    
+}
+#chat-page .container .first-conversation p{
+    text-align: center;
+    border-bottom: 1px solid rgb(164, 164, 164);
+    padding:17.5px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#chat-page .container .first-conversation .conversation-container {
+    height: calc(78vh);
+}
+#chat-page .container .first-conversation .naka{
+    padding: 18px 0;
+}
+#chat-page .container .first-conversation .naka .input-message{
+    padding: 10px ;
+    width: 92%;
+}
+#chat-page .container .first-conversation .naka .btn-send{
+    padding: 10px;
+    width: 65px;
+    margin: 0px;
+    position: absolute;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#registerPage .container{
+    text-align: center;
+}
+#registerPage .container .logo img{
+    width: 150px;
+    margin: 25px 0px;
+}
+#registerPage .container .box-login{
+    border: 1px solid gray;
+    padding: 23px 30px;
+    width: 320px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#registerPage .container .box-login p{
+    text-align: left;
+}
+#registerPage .container .box-login .input{
+    width: 260px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+#registerPage .container .box-login .btn-login{
+    width: 260px;
+    padding: 10px;
+    background-color: rgb(222, 65, 65);
+    border: none;
+    color: white;
+}
+#registerPage .container .box-login .btn-login:hover{
+    background-color: rgb(172, 23, 23);
+    border: none;
+    cursor: pointer;
+}
+#registerPage .container .box-login .input:hover{
+    background-color: rgb(214, 214, 214);
+    /* border: 0px solid gray; */
+    cursor: pointer;
+}
+#registerPage .container .create p{
+    width: 320px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#registerPage .container .create span{
+    font-size: 13px;
+}
+#registerPage .container .box-login p.err{
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+}
+.err{
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+}
+.ok{
+    color: rgb(16, 207, 57);
+    font-size: 12px;
+    margin-top: -8px;
+}
